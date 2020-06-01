@@ -15,6 +15,7 @@ a {
 
 }
 
+
 #_bg__sadna {
 	top: 0px;
 	left: 0px;
@@ -61,16 +62,22 @@ color:blue;
 	left: 1016.2291259766px;
 	width: 280.77087402344px;
 	height: 63.978332519531px;
+	
 
 }
 
+
+#group_2:hover {
+	background:#E7797F;
+
+}
 #rectangle_3 {
 	top: 0px;
 	left: 0px;
 	width: 268.77087402344px;
 	height: 51.978332519531px;
 	border: 6px solid #000000;
-	background:#E7797F;
+	
 }
 
 
