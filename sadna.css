@@ -14,6 +14,7 @@ a {
     text-decoration: none;
 
 }
+#content-container { display: block; position: relative; width: 1920px; height: 900px; overflow: hidden;  margin-left: auto; margin-right: auto;  }
 
 
 #_bg__sadna {
@@ -21,7 +22,7 @@ a {
 	left: 0px;
 	width: 100%;
 	height: 100%;
-	background:rgba(242,242,242,255);
+	background:#F2F2F2;
 }
 
 
@@ -68,7 +69,7 @@ color:blue;
 
 
 #group_2:hover {
-	background:#E7797F;
+	background:#CAE5E8;
 
 }
 #rectangle_3 {
