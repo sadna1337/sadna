@@ -2,8 +2,8 @@
 html, body { 
 	width: 100%;
 	height: 100%;
-	font-family: helvetica; 
-	overflow-x:hidden;     
+	font-family: 'Roboto', sans-serif; 
+	overflow: hidden;  
 	top:0;
     bottom:0;
     left:0;
@@ -26,15 +26,15 @@ a {
 
 #sadna_2x {
 height: 7%;
+margin: 3%;
+margin-top: 3%;
 width: auto;
 }
 
 
 #content-container { 
-	width: 90%;
-	
-	height: 90%;
-
+	width: 100%;
+	height: 70%;
 
 	 }
 
@@ -54,23 +54,24 @@ width: auto;
 	overflow: hidden;
 	font-size: 4vmax;
 	text-align: left;
+	font-weight: 700;
 	line-height: 6vmax;
 
 }
 
 
 #group_2 {
-    width: 90%;
-    height: 22%;
-    bottom: 10%;
+    width: 71.5%;
+    height: 15%;
+    bottom: 20%;
     
 }
 
 #rectangle_3 {
 	
 	width: 15vmax;
-	height: 8vh;
-	border: 6px solid #000000;
+	height: 7vmin;
+	border: 0.3vmax solid #000000;
 	font-size: 1.5vmax;
 	display: flex;
     justify-content: center;
