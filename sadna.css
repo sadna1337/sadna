@@ -1,7 +1,17 @@
 
-body { margin: 0px; padding: 0px; font-family: helvetica; overflow-x:hidden;}
+html, body { 
+	width: 100%;
+	height: 100%;
+	font-family: helvetica; 
+	overflow-x:hidden;     
+	top:0;
+    bottom:0;
+    left:0;
+    right:0;
 
-img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+	background:#F2F2F2;}
+
+img { display: block; margin: 0px; border: none; padding: 0px; }
 
 div { position: absolute; }
 
@@ -12,90 +22,66 @@ mark {
 a {
 	color: black;
     text-decoration: none;
-
 }
-#content-container { display: block; position: relative; width: 1920px; height: 900px; overflow: hidden;  margin-left: auto; margin-right: auto;  }
+
+#sadna_2x {
+height: 7%;
+width: auto;
+}
+
+
+#content-container { 
+	width: 90%;
+	
+	height: 90%;
+
+
+	 }
 
 
 #_bg__sadna {
-	top: 0px;
-	left: 0px;
 	width: 100%;
-	height: 100%;
-	background:#F2F2F2;
-}
+	height: 70%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
 #big_challenges_require_a_small_team_ {
-	top: 387px;
-	left: 622px;
-	width: 730px;
-	height: 227px;
+    justify-content: center;
+    align-items: center;
 	overflow: hidden;
-	font-size: 70px;
+	font-size: 4vmax;
 	text-align: left;
-	line-height: 90px;
-	color:#000000;
+	line-height: 6vmax;
+
 }
 
-#rectangle_ {
-color:blue;
-}
-
-#group_1_2x {
-	display:none;
-	top: 125px;
-	left: 274px;
-	width: 154px;
-	height: 63px;
-}
-
-
-#sadna_2x {
-	top: 118px;
-	left: 448px;
-	width: 154px;
-	height: 61px;
-}
 
 #group_2 {
-	top: 629.02166748047px;
-	left: 1016.2291259766px;
-	width: 280.77087402344px;
-	height: 63.978332519531px;
-	
-
+    width: 90%;
+    height: 22%;
+    bottom: 10%;
+    
 }
 
+#rectangle_3 {
+	
+	width: 15vmax;
+	height: 8vh;
+	border: 6px solid #000000;
+	font-size: 1.5vmax;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+   	position: relative;
+    float: right;
 
-#group_2:hover {
+	
+}
+
+#rectangle_3:hover {
 	background:#CAE5E8;
 
-}
-#rectangle_3 {
-	top: 0px;
-	left: 0px;
-	width: 268.77087402344px;
-	height: 51.978332519531px;
-	border: 6px solid #000000;
-	
-}
-
-
-#challenge_us___ {
-	top: 16px;
-	left: 40px;
-	width: 204px;
-	height: 36px;
-	font-size: 26px;
-	text-align: left;
-	color:#000000;
-}
-
-
-#line_1 {
-	top: 980px;
-	left: 448.4990234375px;
-	width: 1024.001953125px;
-	height: 3px;
 }
